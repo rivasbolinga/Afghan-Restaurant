@@ -12,22 +12,23 @@ return (
       <Link to="/">
         <img className="logo-navbar" alt="logo" src={Logo}></img>
       </Link>
-      <Hamburger toggled={isOpen} toggle={setOpen} />
+      <Hamburger
+        style={{ backgroundColor: isOpen ? '#fff' : 'transparent' }}
+        toggled={isOpen}
+        toggle={setOpen}
+      />
     </div>
     {isOpen && (
       <div className="mobile-menu" onClick={() => setOpen(false)}>
-        <Link to="/">
-          <img className="logo-navbar" alt="logo" src={Logo}></img>
-        </Link>
         <ul className="menu">
           <li className="nav-item" onClick={() => setOpen(false)}>
-            <Link to="/">Home</Link>
+            <Link to="/">Accueil</Link>
           </li>
           <li className="nav-item" onClick={() => setOpen(false)}>
-            <Link to="/about">About</Link>
+            <Link to="/about">À propos de nous</Link>
           </li>
           <li className="nav-item" onClick={() => setOpen(false)}>
-            <Link to="/menu">Our menu</Link>
+            <Link to="/menu">Notre menu</Link>
           </li>
           <li className="nav-item" onClick={() => setOpen(false)}>
             <Link to="/contact">Contact</Link>
