@@ -1,14 +1,14 @@
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ErrorPage from './pages/ErrorPage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import MenuPage from './pages/MenuPage';
-function App() {
 
+function App() {
   return (
     <>
       <BrowserRouter>
@@ -23,7 +23,7 @@ function App() {
         <Footer />
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
