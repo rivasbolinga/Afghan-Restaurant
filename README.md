@@ -1,38 +1,17 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./documentation/personal-branding/adarsh-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./documentation/personal-branding/andrea-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h1><b>Afghan Restaurant</b></h1>
 
 </div>
+
+# App Mocks
+under construction ...
+<br>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -60,36 +39,36 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Afghan Restaurant   <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+Afghan Restaurant is landing page of the Restaurant where you can see menu  specialties of the Restaurant and bunch of more things 
 
-**[your_project__name]** is a...
+**Afghan Restaurant** is a react oriented website where we used various components and library
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+This is project where we applied our relevant skill set to complete our projects 
 
 <details>
-  <summary>Client</summary>
+  <summary>development</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>documentation</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://html.com">Html</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>styling</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="">SCSS and Styled components</a></li>
   </ul>
 </details>
 
@@ -97,11 +76,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Menu page**
+- **Carousel**
+- **banner with animation**
+- **animation on scroll**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +87,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+under construction .........
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,83 +95,60 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
+>For having local file and project you can fork this repo 
+
+>And for making changes you you should follow prerequisites
+
 
 ### Prerequisites
+To edit this project you need:
+ - Node.js installed
+ - A Terminal 
+ - A web browser
+ - An IDE
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+ - suggested IDE
+   - visual studio code
+   - atom 
+   - visual code 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+ - And run `npm i` in root dir <small>to install node modules</small>
+ - Then run `npm run dev` or `npm start`
+ - All this makes our project open  in the browser
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-To run the project, execute the following command:
+ Execute the following thing:
+ 
+ - Stocks and State is manipulated by API 
+ - details page with proper logo
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+- To run all test cases you need to run `npm test` in the root dir 
+- Linters for files run in the root dir
+  - `npx eslint "**/*.{js,jsx}` for JS or JSX linting
+  - `npx stylelint "**/*.{css,scss}"`for CSS or SCSS linting
+  - `npx hint .` for HTML linting
+  - `--fix` flag for instant fixable fix
+ 
 
 ### Deployment
 
 You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- Fork our Repo and clone it or download `zip` and extract it
+- Edit some changes
+- Run `npm run build` to make our project production ready
+- deploy it using [GitHub](www.github.com) pages 
+- or use Netlify or Render
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +156,17 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Adarsh Pathak**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@PowerLevel9000](https://github.com/PowerLevel9000)
+- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002)
+- LinkedIn: [Adarsh Pathak](https://linkedin.com/in/powerlevel)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@rivasbolinga](https://github.com/rivasbolinga)
+- Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
+- LinkedIn: [andrea rivas palacios](https://www.linkedin.com/in/andrearivaspalacios/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +176,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **payment gateway**
+- [ ] **Cart system**
+- [ ] **QR scanner for gifts**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +196,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please give it a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,27 +205,12 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I will like to mention @rivasbolinga for her expertise in field we are learning a lot together
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -283,6 +218,5 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
