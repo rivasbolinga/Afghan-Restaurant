@@ -24,13 +24,15 @@ const Banner = () => {
   // };
 
   return (
-    <section className="banner" style={parallaxStyle}>
+    <section className="banner">
       <img src={bannerImage} alt="banner-image" />
       <div className="banner-content">
         <h1>console.log() lol</h1>
+        {/*  */}
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit a pariatur asperiores optio libero officiis repudiandae amet aspernatur, omnis excepturi. Cum sapiente facere ipsam repellendus, nesciunt esse dicta quia fugiat?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit a pariatur asperiores optio libero officiis repudiandae amet aspernatur, omnis 
         </p>
+        <button>our menu</button>
       </div>
     </section>
   );

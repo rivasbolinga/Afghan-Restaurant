@@ -1,12 +1,14 @@
 @import './common.scss';
 
 .navigation-bar {
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
   padding: 4%;
   height: 30px;
+  z-index: 2;
 }
 
 .navigation-container {
