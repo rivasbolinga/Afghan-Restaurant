@@ -1,5 +1,6 @@
 import '../styles/footer.scss';
 import { Link } from 'react-router-dom';
+import Map from './banner/Map';
 const Footer = () => {
   return (
     <footer>
@@ -45,8 +46,10 @@ const Footer = () => {
         </div>
         <div className="footer-item">
           <h3 className="footer-title">Addresse</h3>
-          <p className="footer-text">14 rue de L'épinguy 74300 cluses</p>
-          <div className="map-container">map here</div>
+          <p className="footer-text">14 rue de L'épinguy 74300 Cluses</p>
+          <div className="map-container">
+            <Map />
+          </div>
         </div>
         <div className="footer-item">
           <h3 className="footer-title">Contact</h3>

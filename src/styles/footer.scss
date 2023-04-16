@@ -3,7 +3,7 @@
 
 footer {
   background-color: white;
-  font-family: $playfair;
+  font-family: $merri;
   color:$black;
   font-weight: 300;
   
@@ -25,6 +25,7 @@ footer {
   color: $grey;
   margin-top: 20px;
   font-weight: 300;
+  font-family: $mukta;
 }
 
 .footer-links li {
@@ -49,6 +50,7 @@ footer {
 
 .email-footer {
   color: $orange;
+  font-size: 20px;
 }
 
 .phone-footer {
@@ -60,9 +62,20 @@ footer {
   background-color: $black;
   color: $grey;
   padding: 6%;
+  margin-top: 50px;
 }
 
 .copyright-container a {
   color: $orange;
   text-decoration: none;
+}
+
+.map-container {
+  border: 2px solid $orange;
+  width: 95%;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  
 }
