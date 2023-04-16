@@ -14,9 +14,25 @@ const Banner = ({ title, description }) => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+
+  let bannerImageSrc;
+
+  if (width > 768) {
+    bannerImageSrc = bannerImage;
+  } else if (width < 425) {
+    bannerImageSrc = bannerImageMob;
+  } else {
+    bannerImageSrc = bannerImageTab;
+  }
+
   return (
     <section className="banner">
-      <img src={width > 768 ? bannerImage : width < 425 ? bannerImageMob : bannerImageTab} alt="banner" />
+      <img
+        src={
+        bannerImageSrc
+      }
+        alt="banner"
+      />
       <div className="banner-content">
         <h1>{title}</h1>
         {/*  */}
@@ -26,7 +42,7 @@ const Banner = ({ title, description }) => {
         <button type="button">our menu</button>
       </div>
     </section>
-  )
+  );
 };
 Banner.propTypes = {
   title: PropTypes.string.isRequired,
