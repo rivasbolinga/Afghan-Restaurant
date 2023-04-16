@@ -50,12 +50,12 @@ const Footer = () => {
         </div>
         <div className="footer-item">
           <h3 className="footer-title">Contact</h3>
-          <p className="footer-text">0656768519</p>
-          <p className="footer-text">shinwari.umar99@gmail.com</p>
+          <p className="footer-text phone-footer">0656768519</p>
+          <p className="footer-text email-footer">shinwari.umar99@gmail.com</p>
         </div>
       </div>
       <div className="copyright-container">
-        Afghan food Copyright ©2023 All rights reserved |{' '}
+        Afghan food Copyright ©2023 All rights reserved {' '}
         <div>
           Design by{' '}
           <a
