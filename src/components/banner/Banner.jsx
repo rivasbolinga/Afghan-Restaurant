@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import bannerImage from '../../assets/banner/banner.jpg';
+import bannerImageDesk from '../../assets/banner/banner-desktop.jpg';
 import bannerImageMob from '../../assets/banner/banner-mobile.jpg';
 import bannerImageTab from '../../assets/banner/banner-tablet.jpg';
 import '../../styles/banner.scss';
@@ -18,7 +18,7 @@ const Banner = ({ title, description }) => {
   let bannerImageSrc;
 
   if (width > 768) {
-    bannerImageSrc = bannerImage;
+    bannerImageSrc = bannerImageDesk;
   } else if (width < 425) {
     bannerImageSrc = bannerImageMob;
   } else {
