@@ -4,7 +4,7 @@ import Map from './banner/Map';
 const Footer = () => {
   return (
     <footer>
-      <div className="curve-zigzag"></div>
+      <div className="gg-shape-zigzag"></div>
       <div className="footer-container">
         <div className="footer-item footer-dinner">
           <h3 className="footer-title">Dinner Restaurant</h3>
