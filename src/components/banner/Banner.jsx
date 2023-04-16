@@ -1,21 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import bannerImage from '../../assets/banner/banner.jpg';
+import bannerImageMob from '../../assets/banner/banner-mobile.jpg';
+import bannerImageTab from '../../assets/banner/banner-tablet.jpg';
 import '../../styles/banner.scss';
 
-const Banner = ({ title, description }) => (
-  <section className="banner">
-    <img src={bannerImage} alt="banner" />
-    <div className="banner-content">
-      <h1>{title}</h1>
-      {/*  */}
-      <p>
-        {description}
-      </p>
-      <button type="button">our menu</button>
-    </div>
-  </section>
-);
+const Banner = ({ title, description }) => {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  return (
+    <section className="banner">
+      <img src={width > 768 ? bannerImage : width < 425 ? bannerImageMob : bannerImageTab} alt="banner" />
+      <div className="banner-content">
+        <h1>{title}</h1>
+        {/*  */}
+        <p>
+          {description}
+        </p>
+        <button type="button">our menu</button>
+      </div>
+    </section>
+  )
+};
 Banner.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
