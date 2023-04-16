@@ -1,5 +1,11 @@
-const Footer = () => (
-  <h1>footer</h1>
-);
+import '../styles/footer.scss';
+
+const Footer = () => {
+  return (
+    <footer>
+      <div className="curve-zigzag"></div>
+    </footer>
+  )
+}
 
 export default Footer;

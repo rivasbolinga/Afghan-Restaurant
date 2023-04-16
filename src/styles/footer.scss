@@ -1,0 +1,9 @@
+@import './common.scss';
+
+.curve-zigzag {
+ border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid black;
+  height: 0;
+  width: 100%;
+}
