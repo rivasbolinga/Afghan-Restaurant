@@ -69,6 +69,10 @@
   font-weight: 300;
 }
 
+.mobile-menu li {
+  opacity: 0;
+}
+
 .menu li {
   list-style: none;
   transform: translateY(-30px);
@@ -91,10 +95,6 @@
   transition-delay: 0.7s;
 }
 
-.mobile-menu li {
-  opacity: 0;
-}
-
 .mobile-menu.open li {
   opacity: 1;
   transform: translateY(0);
@@ -109,9 +109,10 @@
   .navigation-container {
     padding: 2% 10% 2% 2%;
   }
+
   .hamburger-react {
-  position: absolute;
-  right: 60px;
-  z-index: 3;
-}
+    position: absolute;
+    right: 60px;
+    z-index: 3;
+  }
 }
