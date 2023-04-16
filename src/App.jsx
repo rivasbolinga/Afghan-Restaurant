@@ -7,12 +7,14 @@ import ErrorPage from './pages/ErrorPage';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import MenuPage from './pages/MenuPage';
+import Banner from './components/banner/Banner';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navigation />
+        <Banner />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
