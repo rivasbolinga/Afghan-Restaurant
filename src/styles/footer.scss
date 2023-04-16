@@ -1,9 +1,16 @@
 @import './common.scss';
 
-.curve-zigzag {
- border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 20px solid black;
-  height: 0;
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 20px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid #333;
+  z-index: 999;
 }
+
