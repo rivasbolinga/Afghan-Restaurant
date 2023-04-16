@@ -76,6 +76,10 @@
   font-weight: 300;
 }
 
+.mobile-menu li {
+  opacity: 0;
+}
+
 .menu li {
   list-style: none;
   transform: translateY(-30px);
@@ -110,6 +114,12 @@
   }
 
   .navigation-container {
-    padding: 2%;
+    padding: 2% 10% 2% 2%;
+  }
+
+  .hamburger-react {
+    position: absolute;
+    right: 60px;
+    z-index: 3;
   }
 }

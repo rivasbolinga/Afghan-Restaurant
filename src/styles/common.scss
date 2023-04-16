@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Mukta:wght@200&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 $black: #000;
 $white: #fff;
 $open: 'Open Sans';
+$grey: rgb(125, 125, 125);
+$orange: #fdb44b;
+$playfair: 'Playfair Display';
+$mukta: 'Mukta';
+$merri: 'Merriweather';
 
 * {
   margin: 0;
