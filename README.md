@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="./documentation/personal-branding/adarsh-logo.png" alt="logo" width="140"  height="auto" />
-  <img src="./documentation/personal-branding/adarsh-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./documentation/personal-branding/andrea-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h1><b>Afghan Restaurant</b></h1>
