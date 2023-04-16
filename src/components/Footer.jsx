@@ -6,18 +6,18 @@ const Footer = () => {
     <footer>
       <div className="curve-zigzag"></div>
       <div className="footer-container">
-        <div className="footer-item">
-          <h3 className="footer-title">Diner Restaurant</h3>
+        <div className="footer-item footer-dinner">
+          <h3 className="footer-title">Dinner Restaurant</h3>
           <p className="footer-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel neque,
             odio illum. Est minima sint minus sunt ducimus.
           </p>
         </div>
-        <div className="footer-item">
+        <div className="footer-item footer-time">
           <h3 className="footer-title">Horaires</h3>
           <p className="footer-text">from 12:00pm - 18:30pm</p>
         </div>
-        <div className="footer-item">
+        <div className="footer-item footer-links">
           <h3 className="footer-title">Liens directs</h3>
           <ul className="footer-links">
             <li>
@@ -44,21 +44,21 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-item">
+        <div className="footer-item footer-location">
           <h3 className="footer-title">Addresse</h3>
           <p className="footer-text">14 rue de L'épinguy 74300 Cluses</p>
           <div className="map-container">
             <Map />
           </div>
         </div>
-        <div className="footer-item">
+        <div className="footer-item footer-contact">
           <h3 className="footer-title">Contact</h3>
-          <p className="footer-text phone-footer">0656768519</p>
           <p className="footer-text email-footer">shinwari.umar99@gmail.com</p>
+          <p className="footer-text phone-footer">0656768519</p>
         </div>
       </div>
       <div className="copyright-container">
-        Afghan food Copyright ©2023 All rights reserved {' '}
+        Afghan food Copyright ©2023 All rights reserved{' '}
         <div>
           Design by{' '}
           <a
