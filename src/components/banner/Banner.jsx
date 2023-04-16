@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import bannerImage from '../../assets/banner/banner.jpg';
 import '../../styles/banner.scss';
 
-const Banner = () => {
+const Banner = ({title, description}) => {
   //  i will use this in future 
   // const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -27,15 +27,25 @@ const Banner = () => {
     <section className="banner">
       <img src={bannerImage} alt="banner-image" />
       <div className="banner-content">
-        <h1>console.log() lol</h1>
+        <h1>{title}</h1>
         {/*  */}
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit a pariatur asperiores optio libero officiis repudiandae amet aspernatur, omnis 
+          {description}
         </p>
         <button>our menu</button>
       </div>
     </section>
   );
 };
+
+Banner.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
+}
+
+Banner.defaultProps = {  
+  title : "Afgan Resturent",
+  description : "we serve you well",
+}  
 
 export default Banner;
