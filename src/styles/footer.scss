@@ -1,16 +1,48 @@
 @import './common.scss';
 
 
-footer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 20px;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 20px solid #333;
-  z-index: 999;
+footer {
+  background-color: white;
+  font-family: $playfair;
+  color:$black;
+  font-weight: 300;
+  padding: 5%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-title {
+  font-weight: 300px;
+}
+
+.footer-text {
+  color: $grey;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.footer-links li {
+  list-style: none;
+}
+
+.footer-links a {
+  color: $orange;
+  text-decoration: none;
+}
+
+.footer-links  {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.span-bullet {
+  color: $grey;
 }
 
