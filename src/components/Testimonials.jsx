@@ -16,7 +16,7 @@ class Testimonials extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       appendDots: (dots) => {
-        return <MagicSliderDots dots={dots} numDotsToShow={4} dotWidth={30} />
+        return <MagicSliderDots dots={dots} numDotsToShow={3} dotWidth={30} />
       },
     }
 
@@ -24,7 +24,7 @@ class Testimonials extends Component {
       <div className="slider-container">
         <Slider className="slider" {...settings}>
           <div className="testimonial-container">
-            <h3>
+            <h3 className='testimonial-text'>
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               ad rerum odio doloribus minima inventore atque, eveniet placeat
               ipsum. Eius harum ratione, fugiat iste officia praesentium non
