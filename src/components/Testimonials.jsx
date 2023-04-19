@@ -21,47 +21,49 @@ class Testimonials extends Component {
     }
 
     return (
-      <Slider className="slider" {...settings}>
-        <div className="testimonial-container">
-          <h3>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad
-            rerum odio doloribus minima inventore atque, eveniet placeat ipsum.
-            Eius harum ratione, fugiat iste officia praesentium non similique
-            sed magni?"
-          </h3>
-          <div className="testimonial-info">
-            <img className="testimonial-image" src="testimonial"></img>
-            <h4 className="testimonial-name">UMAR SHINWARI</h4>
-            <p className='testimonial-position'>CEO, Founder</p>
+      <div className="slider-container">
+        <Slider className="slider" {...settings}>
+          <div className="testimonial-container">
+            <h3>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              ad rerum odio doloribus minima inventore atque, eveniet placeat
+              ipsum. Eius harum ratione, fugiat iste officia praesentium non
+              similique sed magni?"
+            </h3>
+            <div className="testimonial-info">
+              <img className="testimonial-image" src="testimonial"></img>
+              <h4 className="testimonial-name">UMAR SHINWARI</h4>
+              <p className="testimonial-position">CEO, Founder</p>
+            </div>
           </div>
-        </div>
-        <div className="testimonial-container">
-          <h3>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad
-            rerum odio doloribus minima inventore atque, eveniet placeat ipsum.
-            Eius harum ratione, fugiat iste officia praesentium non similique
-            sed magni?"
-          </h3>
-          <div className="testimonial-info">
-            <img className="testimonial-image" src="testimonial"></img>
-            <h4 className="testimonial-name">UMAR SHINWARI</h4>
-            <p className='testimonial-position'>CEO, Founder</p>
+          <div className="testimonial-container">
+            <h3>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              ad rerum odio doloribus minima inventore atque, eveniet placeat
+              ipsum. Eius harum ratione, fugiat iste officia praesentium non
+              similique sed magni?"
+            </h3>
+            <div className="testimonial-info">
+              <img className="testimonial-image" src="testimonial"></img>
+              <h4 className="testimonial-name">UMAR SHINWARI</h4>
+              <p className="testimonial-position">CEO, Founder</p>
+            </div>
           </div>
-        </div>
-        <div className="testimonial-container">
-          <h3>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad
-            rerum odio doloribus minima inventore atque, eveniet placeat ipsum.
-            Eius harum ratione, fugiat iste officia praesentium non similique
-            sed magni?"
-          </h3>
-          <div className="testimonial-info">
-            <img className="testimonial-image" src="testimonial"></img>
-            <h4 className="testimonial-name">UMAR SHINWARI</h4>
-            <p className='testimonial-position'>CEO, Founder</p>
+          <div className="testimonial-container">
+            <h3>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              ad rerum odio doloribus minima inventore atque, eveniet placeat
+              ipsum. Eius harum ratione, fugiat iste officia praesentium non
+              similique sed magni?"
+            </h3>
+            <div className="testimonial-info">
+              <img className="testimonial-image" src="testimonial"></img>
+              <h4 className="testimonial-name">UMAR SHINWARI</h4>
+              <p className="testimonial-position">CEO, Founder</p>
+            </div>
           </div>
-        </div>
-      </Slider>
+        </Slider>
+      </div>
     )
   }
 }

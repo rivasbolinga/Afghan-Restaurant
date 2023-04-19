@@ -1,1 +1,19 @@
 @import './common.scss';
+
+.slider-container {
+  margin-top: 200px;
+  height: 400px ;
+}
+
+.testimonial-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $black;
+  font-family: $merri;
+  gap: 10px;
+  text-align: center;
+  height: 400px;
+}
