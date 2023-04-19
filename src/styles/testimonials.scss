@@ -1,10 +1,19 @@
 @import './common.scss';
 
+
+
 .slider-container {
-  max-width: 300px;
   overflow: hidden;
   height: 500px;
-  margin-top: 200px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh; 
 }
 
 .slider {
@@ -17,14 +26,23 @@
   text-align: center;
   padding: 0 10px;
   font-family: $mukta;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonial-image {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 20px auto;
   
+}
+
+.testimonial-text {
+  width: 80%;
+  text-align: center;
 }
 
 .testimonial-name {
@@ -37,6 +55,10 @@
   margin-bottom: 20px;
   color: $clearGrey;
   font-family: $open;
+}
+
+.magic-dots.slick-dots li.slick-active button:before {
+    color: $orange;
 }
 
 @media screen and (min-width: 768px) {
