@@ -13,7 +13,10 @@
     "hamburger-react": "^2.5.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-alice-carousel": "^2.7.1",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.9.0",
     "sass": "^1.62.0",
     "vite": "^4.2.0"
