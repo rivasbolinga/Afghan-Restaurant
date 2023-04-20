@@ -1,19 +1,9 @@
 @import './common.scss';
 
-
-
 .slider-container {
   overflow: hidden;
-  height: 500px;
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center !important;
-  align-items: center !important;
-  height: 100vh; 
+  height: 600px;
+  padding: 100px 0;
 }
 
 .slider {
@@ -24,12 +14,12 @@
 
 .testimonial-container {
   text-align: center;
-  padding: 0 10px;
   font-family: $mukta;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 20px;
 }
 
 .testimonial-image {
@@ -37,12 +27,20 @@
   height: 100px;
   border-radius: 50%;
   margin: 20px auto;
-  
 }
 
 .testimonial-text {
   width: 80%;
   text-align: center;
+  max-width: 500px;
+  font-weight: 200;
+}
+
+.testimonial-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonial-name {
@@ -57,11 +55,25 @@
   font-family: $open;
 }
 
-.magic-dots.slick-dots li.slick-active button:before {
-    color: $orange;
+.magic-dots.slick-dots li button::before {
+  color: $orange;
+  opacity: 1;
+  font-size: 8px;
+}
+
+.magic-dots.slick-dots li.slick-active button::before {
+  color: $orange;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
+  .slider-container {
+    background-image: url('../assets/images/bc-images/bc1.png');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: 0 0;
+  }
+
   .testimonial-container {
     display: inline-block;
     vertical-align: top;
@@ -69,16 +81,44 @@
     padding: 0 15px;
     text-align: left;
   }
+
+  .magic-dots.slick-dots {
+    width: 100% !important;
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .magic-dots.slick-dots ul {
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .testimonial-container {
-    width: 25%;
+    width: 45%;
+  }
+
+  .testimonial-text {
+    width: 850px;
+    font-size: 22px;
+  }
+
+  .slider-container {
+    background-image: url('../assets/images/bc-images/bc1.png');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 0 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .testimonial-container {
-    padding: 0 30px;
+    padding: 0;
+  }
+
+  .magic-dots.slick-dots ul {
+    margin-left: 0;
   }
 }
