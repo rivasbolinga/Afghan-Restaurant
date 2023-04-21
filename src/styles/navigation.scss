@@ -13,15 +13,14 @@
 
 .navigation-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 4%;
-  gap: 14%;
+  justify-content: center;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
+  max-width: 100%;
 }
 
 .logo-navbar {
@@ -47,10 +46,8 @@
 
 .hamburger-react {
   position: absolute;
-  right: 30px;
   z-index: 3;
   background-color: rgba($color: #000, $alpha: 0.9);
-  margin: 0 2rem;
   color: white;
 
   @media screen and (max-width: 768px) {
@@ -119,7 +116,6 @@
 
   .hamburger-react {
     position: absolute;
-    right: 60px;
     z-index: 3;
   }
 }
