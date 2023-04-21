@@ -13,8 +13,10 @@
 
 .navigation-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  padding: 4%;
+  gap: 14%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -46,7 +48,9 @@
 
 .hamburger-react {
   position: absolute;
+  right: 30px;
   z-index: 3;
+  margin: 0 2rem;
   background-color: rgba($color: #000, $alpha: 0.9);
   color: white;
 
@@ -118,5 +122,6 @@
   .hamburger-react {
     position: absolute;
     z-index: 3;
+    right: 60px;
   }
 }
