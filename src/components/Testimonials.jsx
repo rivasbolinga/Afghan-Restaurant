@@ -1,33 +1,60 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import Umar from '../assets/images/Umar.png';
+import '../styles/testimonials.scss';
 
 const items = [
-  <div className="testimonial" key="testimonial-1">
-    <h3>Testimonial 1</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, quam
-      ut rutrum venenatis, augue nunc bibendum enim, ut bibendum dolor arcu eget
-      mauris.
-    </p>
+  <div className="testimonial-container" key="testimonial-1">
+    <img className="testimonial-image" alt="testimonial" src={Umar} />
+    <h3 className="testimonial-text">
+      &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad
+      rerum odio doloribus minima inventore atque, eveniet placeat ipsum. Eius
+      harum ratione, fugiat iste officia praesentium non similique sed
+      magni?&quot;
+    </h3>
+    <div className="testimonial-info">
+      <h4 className="testimonial-name">UMAR SHINWARI</h4>
+      <p className="testimonial-position">CEO, Founder</p>
+    </div>
   </div>,
-  <div className="testimonial" key="testimonial-2">
-    <h3>Testimonial 2</h3>
-    <p>
-      Nullam euismod mauris et ligula imperdiet sagittis. Duis bibendum elit a
-      sem fringilla, at bibendum sapien volutpat. Sed consectetur ullamcorper
-      nunc quis varius.
-    </p>
+  <div className="testimonial-container" key="testimonial-2">
+    <img className="testimonial-image" alt="testimonial" src={Umar} />
+    <h3 className="testimonial-text">
+      &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad
+      rerum odio doloribus minima inventore atque, eveniet placeat ipsum. Eius
+      harum ratione, fugiat iste officia praesentium non similique sed
+      magni?&quot;
+    </h3>
+    <div className="testimonial-info">
+      <h4 className="testimonial-name">UMAR SHINWARI</h4>
+      <p className="testimonial-position">CEO, Founder</p>
+    </div>
   </div>,
-  <div className="testimonial" key="testimonial-3">
-    <h3>Testimonial 3</h3>
-    <p>
-      Quisque euismod urna vel dapibus commodo. Suspendisse vel erat nunc. Fusce
-      ultricies tortor vel lectus semper posuere.
-    </p>
+  <div className="testimonial-container" key="testimonial-3">
+    <img className="testimonial-image" alt="testimonial" src={Umar} />
+    <h3 className="testimonial-text">
+      &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad
+      rerum odio doloribus minima inventore atque, eveniet placeat ipsum. Eius
+      harum ratione, fugiat iste officia praesentium non similique sed
+      magni?&quot;
+    </h3>
+    <div className="testimonial-info">
+      <h4 className="testimonial-name">UMAR SHINWARI</h4>
+      <p className="testimonial-position">CEO, Founder</p>
+    </div>
   </div>,
 ];
 
-const Testimonials = () => <AliceCarousel className="car" key={items} mouseTracking items={items} />;
+const Testimonials = () => (
+  <section className="testimonials-section">
+    <AliceCarousel
+      disableButtonsControls
+      key={items}
+      mouseTracking
+      items={items}
+    />
+  </section>
+);
 
 export default Testimonials;
