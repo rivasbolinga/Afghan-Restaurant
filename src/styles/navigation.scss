@@ -48,9 +48,9 @@
 
 .hamburger-react {
   position: absolute;
-  right: 30px;
+  right: 20px;
   z-index: 3;
-  margin: 0 2rem;
+  margin: 0 1rem;
   background-color: rgba($color: #000, $alpha: 0.9);
   color: white;
 
@@ -65,9 +65,10 @@
   flex-direction: column;
   align-items: center;
   height: 100%;
-  width: 90%;
+  width: 100%;
   gap: 25px;
   padding: 0;
+  margin: 0;
 }
 
 .menu a {
