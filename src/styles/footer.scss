@@ -104,8 +104,13 @@ footer {
   }
 
   .footer-links {
+    margin-top: 20px;
     grid-column: 1;
     grid-row: 2/3;
+  }
+
+  .footer-text {
+    width: 300px;
   }
 
   .footer-time {
@@ -129,7 +134,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    padding: 8%;
+    padding: 2% 6%;
+    margin: 0;
   }
 
   .footer-dinner {
@@ -177,11 +183,17 @@ footer {
 
   .footer-text {
     font-size: 20px;
+    width: 200px;
   }
 }
 
 @media (min-width: 1440px) {
   .footer-dinner {
-    width: 200px;
+    width: 250px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+    width: 250px;
   }
 }
